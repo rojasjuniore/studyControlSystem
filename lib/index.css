@@ -1,0 +1,15 @@
+body {
+    background-image: url(fondo.jpg);
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+form,
+input,
+button {
+    margin: 10px;
+}
+#login {
+    background-color: rgba(0, 0, 0, 0.5);
+    margin-top: 100px;
+    border-radius: 10px;
+}

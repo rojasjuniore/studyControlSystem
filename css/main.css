@@ -1,0 +1,147 @@
+body{
+	background-image: url("../img/fondo/12.jpg");
+	font-family: 'Lato', sans-serif;
+	color: #0D0000;
+}
+
+img{
+	max-width: 80%;
+}
+
+a, .colormenu{
+	color: #023E73;
+}
+
+.espacio{
+	.bottom-aligned {
+    display: flex;
+    align-items: flex-end;
+}
+}
+
+
+.titulo{
+	font-family: 'Gentium Basic', serif;
+}
+
+.letra{
+	font-family: 'Amaranth', sans-serif;
+}
+
+.letratext{
+	font-family: 'Arvo', serif;
+}
+
+.quitar-float{
+	float: none;
+}
+
+.espacio-arriba{
+	margin-top: 40px;
+}
+
+.espacio-arriba1{
+	margin-top: 60px;
+}
+.espacio-arriba2{
+	margin-top: 20px;
+}
+
+
+/*.pacifico{
+	font-family: 'Pacifico', 
+	cursive;
+}*/
+
+.se-gris{
+	background-color: #eee;
+}
+
+.grande{
+	font-size: 3em;
+}
+
+.peque{
+	font-size: 1em;
+}
+
+.letraFor{
+	font-size: 1.5em;
+}
+
+.letraPeq{
+	font-size: 0.5em;
+}
+
+
+
+
+.color-titulo{
+	color: #023E73
+}
+
+.no-lista{
+	margin: 0px;
+	padding: 0px;
+}
+
+.inline-block{
+	float: none;
+	display:  inline-block;
+}
+
+.no-lista li {
+	list-style-type: none;
+	
+}
+
+.espacio-derecha{
+	margin-right: 3em;
+}
+.espacio-derecha1{
+	margin-right: 2em;
+}
+
+
+
+
+.padding-largo{
+	padding: 5px 10px;
+}
+.mediano{
+	font-size: 1.5em;
+}
+
+.pequeno{
+	font-size: 0.5em;
+}
+.pequeno1{
+	font-size: 0.8em;
+}
+
+.retraso-1{
+	-webkit-animation-delay: 1s;
+	-moz-animation-delay: 1s;
+	 animation-delay: 1s;
+
+}
+
+
+
+.pull-left {
+  float: left !important;
+}
+.pull-right {
+  float: right !important;
+}
+
+
+
+.center-block {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+

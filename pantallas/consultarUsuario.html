@@ -1,0 +1,53 @@
+<html>
+
+<header>
+	
+	<meta charset = "utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="shortcut" href="favicon.ico" type="img/favicon.ico" />
+	
+	<link rel="stylesheet" href="../lib/bootstrap.min.css">
+    <link  rel="stylesheet" href="../lib/bootstrap-theme.min.css">
+	
+	<link rel="stylesheet" type="text/css" href="../css/main.css">
+	<link rel="stylesheet" type="text/css" href="../css/animate.css">
+
+
+	<script type="text/javascript" src="lib/alertify.js"></script>
+	<link rel="stylesheet" href="themes/alertify.core.css" />
+	<link rel="stylesheet" href="themes/alertify.default.css" />
+
+	<link href='https://fonts.googleapis.com/css?family=Amaranth:700' rel='stylesheet' type='text/css'>	
+	<title>Consultar de Usuarios</title>
+</header>
+
+<body class="letra animated fadeInDown letraFor letra">
+
+	<nav class="se-gris padding-largo text-center">
+		<ul class="no-lista">
+			<li class="col-md-3 inline-block mediano pacifico"><a href="principal.html">Inicio</a></li> 
+			<li class="col-md-3 inline-block mediano pacifico"><a href="index.html">Salir</a></li>
+		</ul>
+	</nav>
+	
+	<form action="php/registroAlum.php" method="post"> 
+	<div class="col-xs-3 col-md-3 col-sm-6 center-block quitar-float text-center espacio-arriba">
+
+		<h2>Consultar Alumno</h2>
+		<label for="cedula" class="espacio-arriba">Nº de Cedula</label>
+		<input type="text" 
+			   class="form-control"
+			   pattern="[0-9]{6,9}" required="" id="cedula"
+			   name="ConCedula"
+			   placeholder="Ej: 20123456">
+	</div>
+	<div class="col-md-3 center-block quitar-float text-center espacio-arriba">
+			
+		<button type="reset" value="Borrar" class="btn btn-default espacio-derecha">Limpiar</button>
+		
+		<button  type="submit" name="enviar" value="Registrar" class="btn btn-default" >Consultar
+		</button>	
+	</form>
+
+</body>
+</html>
